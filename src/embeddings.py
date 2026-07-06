@@ -1,5 +1,3 @@
-
-
 from sentence_transformers import SentenceTransformer
 
 # Initialize the sentence transformer model
