@@ -1,0 +1,3 @@
+DATE: 2026-03-22
+SERVICE: Search-Index
+SUMMARY: Customers reported inability to search for products on the web app. The Elasticsearch cluster fell out of quorum when two critical master nodes suddenly ran out of disk space due to unoptimized debug logging logs. Unnecessary logs were deleted to fix the cluster health.

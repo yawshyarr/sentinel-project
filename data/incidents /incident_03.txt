@@ -1,0 +1,3 @@
+DATE: 2026-02-01
+SERVICE: User-Authentication
+SUMMARY: Active directory login attempts timed out globally for 45 minutes. System administrators tracked the issue down to an expired SSL certificate on the primary authentication server cluster. The certificate was manually renewed and redeployed to clear the outage.

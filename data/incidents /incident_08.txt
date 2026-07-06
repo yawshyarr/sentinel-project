@@ -1,0 +1,3 @@
+DATE: 2026-04-29
+SERVICE: Analytics-Pipeline
+SUMMARY: Overnight data warehousing jobs failed to ingest yesterday's event streams. A upstream schema update changed an integer user ID field into a string layout, which broke the data transformation script typing rules. The transformation engine code was patched to handle both formats.

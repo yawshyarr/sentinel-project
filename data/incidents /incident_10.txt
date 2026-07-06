@@ -1,0 +1,3 @@
+DATE: 2026-06-02
+SERVICE: Recommendation-API
+SUMMARY: CPU utilization spiked to 100% across all available service instances, causing widespread endpoint latency. A new machine learning personalization model update contained an infinite loop condition when processing empty customer browse history data arrays. The model was rolled back.

@@ -1,0 +1,3 @@
+DATE: 2026-04-10
+SERVICE: Frontend-Web-App
+SUMMARY: Global users encountered DNS resolution failures trying to reach the main domain URL. A junior developer accidentally updated the Cloudflare DNS configuration records while modifying an unrelated subdomain entry. The configuration change was rolled back immediately.
