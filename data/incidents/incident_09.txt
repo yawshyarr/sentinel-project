@@ -1,0 +1,3 @@
+DATE: 2026-05-14
+SERVICE: Media-Storage-S3
+SUMMARY: User profile picture uploads started failing with access denied errors. An automated access control script misconfigured the bucket permissions policy settings, locking out valid application API calls. Permissions were restored manually via the cloud console dashboard.

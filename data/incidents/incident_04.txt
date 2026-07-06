@@ -1,0 +1,3 @@
+DATE: 2026-02-18
+SERVICE: Inventory-Database
+SUMMARY: Read queries against the product catalog dropped to a crawl, causing timeout exceptions in downstream front-end applications. A memory leak was detected inside the Redis caching tier caching engine. The caching nodes were hard-rebooted to restore operational baselines.
